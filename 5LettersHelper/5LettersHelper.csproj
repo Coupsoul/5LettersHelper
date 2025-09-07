@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows10.0.26100.0</TargetFramework>
+    <RootNamespace>_5LettersHelper</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <NuGetAuditMode>direct</NuGetAuditMode>
+    <NuGetAudit>True</NuGetAudit>
+    <ApplicationIcon>5LH.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\cut_AdobeStock_1603006562_Preview.png" />
+    <None Remove="Assets\used-stainless-steel2_roughness.png" />
+    <None Remove="Assets\vfd_grid_glass_256.png" />
+    <None Remove="FiveLettersWords.txt" />
+    <None Remove="Fonts\14 Segment LED.ttf" />
+    <None Remove="Fonts\Font_LiquidCrystalDisplay.ttf" />
+    <None Remove="Fonts\The 2K12.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="5LH.ico" />
+    <Content Include="FiveLettersWords.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\cut_AdobeStock_1603006562_Preview.png" />
+    <Resource Include="Assets\used-stainless-steel2_roughness.png" />
+    <Resource Include="Assets\vfd_grid_glass_256.png" />
+    <Resource Include="Fonts\Font_LiquidCrystalDisplay.ttf" />
+    <Resource Include="Fonts\The 2K12.ttf" />
+  </ItemGroup>
+
+</Project>

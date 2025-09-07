@@ -1,0 +1,32 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+Log/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio files
+.vs/
+TestResults/
+*.[Cc]ache
+*.[Pp]ublish.xml
+*.[Pp]ublishsettings.user
+*.pubxml.user
+
+# Tools
+*.nupkg
+*.snupkg
